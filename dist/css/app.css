@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto:wght@100;300;400&display=swap");
+body {
+  background-color: #2F394D;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gideon Roman", cursive;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form form {
+  margin-bottom: 10px;
+}
+
+.form form p {
+  text-align: center;
+}
+
+.form form input {
+  border: 3px solid #555;
+  background-color: #fff;
+  text-align: center;
+}
+
+.form form button {
+  border: none;
+  border-radius: 4px;
+}
+
+.select-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.select-option .select-option__item {
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=app.css.map */
